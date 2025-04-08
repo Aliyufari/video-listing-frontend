@@ -1,9 +1,7 @@
 <script setup lang="ts">
-    import Navigation from './../components/Navigation.vue';
+    import VideoList from '../components/VideoList.vue';
 </script>
 
 <template>
-    <main class="">
-        <Navigation />
-    </main>
+    <VideoList />
 </template>

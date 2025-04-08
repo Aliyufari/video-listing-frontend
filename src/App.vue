@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import Home from './views/Home.vue'
+import { RouterView } from 'vue-router';
+import Navigation from './components/Navigation.vue';
 </script>
 
 <template>
-  <Home />
+  <Navigation />
+  <RouterView />
 </template>
