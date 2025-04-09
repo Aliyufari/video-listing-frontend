@@ -1,9 +1,8 @@
 <script setup lang="ts">
 defineProps<{
-  title: string
-  src: string
-  category: string
-  createdAt: Date
+  title: string,
+  src: string,
+  createdAt: Date,
 }>()
 </script>
 
@@ -37,7 +36,7 @@ defineProps<{
             {{ title }}
         </h3>
         <p class="text-sm text-gray-400">
-            Uploded on <span class="font-medium">{{ createdAt.toLocaleDateString() }}</span>
+            Uploaded on <span class="font-medium">{{ createdAt.toLocaleDateString() }}</span>
         </p>
     </div>
   </div>

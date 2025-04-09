@@ -1,18 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Home from '../views/Home.vue'
-import NewVideoForm from '../views/NewVideoForm.vue'
+import HomeView from '../views/HomeView.vue'
+import UploadVideoView from '../views/UploadVideoView.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: HomeView
   },
   {
     path: '/new-video',
     name: 'NewVideoForm',
-    component: NewVideoForm
+    component: UploadVideoView
   }
 ]
 
